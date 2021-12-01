@@ -208,10 +208,21 @@ unsigned long t;
 String msg;
  
 void loop() {
+
   //verifica conexão do MQTT
   if(!client.connected()){
-    reconnect();
+  reconnect();
   }
   client.loop();
-
+  
+  auto clientWeb = WSserver.accept();
+  clientWeb.onMessage(handle_message);
+  while (clientWeb.available()) {
+    
+    clientWeb.poll();
+    fb = esp_camera_fb_get();
+    clientWeb.sendBinary((const char *)fb->buf, fb->len);
+    esp_camera_fb_return(fb);
+    fb = NULL;
+  }
 }
