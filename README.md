@@ -14,6 +14,7 @@ A aplicação para o dispositivo é o monitoramento de diferentes ambientes dent
 - Kit de Jumper Cables
 
 <b>Como Utilizar</b>
+
 Segue o diagrama de montagem do ESP32 CAM com a placa conversora USB / Serial e o PC, que utilizará o Arduino IDE para o upload do código.
 
 ![image](https://user-images.githubusercontent.com/57954794/144510351-38947b33-9637-482c-88d0-ea1d6e9509e6.png)
