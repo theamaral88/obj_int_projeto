@@ -13,6 +13,10 @@ A aplicação para o dispositivo é o monitoramento de diferentes ambientes dent
 - Fonte DC Chaveada 9V 1A
 - Kit de Jumper Cables
 
+<b>Softwares Utilizados</b>
+- Arduino IDE
+- Broker MQTT Internet e Coisas: mqtt.internetecoisas.com.br
+
 <b>Como Utilizar</b>
 
 Segue o diagrama de montagem do ESP32 CAM com a placa conversora USB / Serial e o PC, que utilizará o Arduino IDE para o upload do código.
