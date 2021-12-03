@@ -31,4 +31,6 @@ Acesse o IP fornecido no final da ligação com o computador para visualizar o s
 
 Altere o código com as suas credenciais de Wi-Fi, o servidor e tópicos MQTT de sua prefência e em seguida conecte um cliente MQTT para enviar os comandos.
 
+Vídeo demonstrativo disponível aqui: https://www.youtube.com/watch?v=NZvG8xjWlHI
+
 # Obrigado!
